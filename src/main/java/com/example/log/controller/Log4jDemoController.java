@@ -1,4 +1,4 @@
-package com.example.log4jvulnapi.controller;
+package com.example.log.controller;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -18,4 +18,3 @@ public class Log4jDemoController {
         return "Hello, " + name;
     }
 }
-
