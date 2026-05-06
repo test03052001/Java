@@ -20,6 +20,8 @@
     <!-- ✅ Java Version -->
     <properties>
         <java.version>11</java.version>
+        <!-- Spring Framework 5.2.19.RELEASE is patched beyond vulnerable 5.2.18 -->
+        <spring-framework.version>5.2.19.RELEASE</spring-framework.version>
     </properties>
 
     <dependencies>
