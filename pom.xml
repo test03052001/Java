@@ -50,12 +50,7 @@
             <version>2.14.1</version>
         </dependency>
 
-        <!-- 🚨 Vulnerable Jackson -->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.9.8</version>
-        </dependency>
+        <!-- Jackson is provided by spring-boot-starter-web (use Boot-managed versions) -->
 
     </dependencies>
 
@@ -67,6 +62,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.example.demo.DemoApplication</mainClass>
+                </configuration>
             </plugin>
 
             <!-- Compiler Plugin -->
