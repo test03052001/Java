@@ -43,11 +43,11 @@
             <version>8.0.19</version>
         </dependency>
 
-        <!-- 🚨 Vulnerable Log4j (Log4Shell) -->
+        <!-- Upgrade to a patched Log4j release to address known CVEs. -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
-            <version>2.14.1</version>
+            <version>2.17.2</version>
         </dependency>
 
         <!-- Jackson is provided by spring-boot-starter-web (use Boot-managed versions) -->
